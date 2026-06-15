@@ -1,0 +1,36 @@
+package day03;
+
+import java.sql.SQLOutput;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, I'm Ibrahim!");
+        System.out.println("I'm a new student and i will do the day03 task! ^_^");
+        Student student = new Student("Ibrahim", 20, 5.0);
+        System.out.println(student.getName());
+        System.out.println(student.getAge());
+        System.out.println(student.getGpa());
+        //-----------------set-------------------
+        student.setName("Ibrahim Ali");
+        student.setAge(21);
+        student.setGpa(4.0);
+        //---------------------------------------
+        System.out.println(student.getName());
+        System.out.println(student.getAge());
+        System.out.println(student.getGpa());
+        System.out.println("Is student Ibrahim ali excellent? : " + student.isExcellent());
+        System.out.println(student);
+
+        //----------
+
+        Bankaccount user1 = new Bankaccount("Ibrahim", 1000);
+        System.out.println(user1);
+        user1.deposit(500);
+        System.out.println(user1);
+        user1.withdraw(1000);
+        System.out.println(user1);
+        //get balance test
+        user1.deposit(2500);
+        System.out.println(user1.getBalance());
+    }
+}
