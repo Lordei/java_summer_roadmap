@@ -32,5 +32,14 @@ public class Main {
         //get balance test
         user1.deposit(2500);
         System.out.println(user1.getBalance());
+
+        //----- ArraysHelper -----
+        int[] myNumbers = {15, 8, 22, 7, 10, 3};
+
+        ArrayHelper helper = new ArrayHelper();
+
+        System.out.println("Max number: " + helper.findMax(myNumbers));
+        System.out.println("Average: " + helper.calculateAverage(myNumbers));
+        System.out.println("Even numbers count: " + helper.countEvens(myNumbers));
     }
 }
