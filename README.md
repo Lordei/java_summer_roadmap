@@ -13,4 +13,13 @@ Start date: June 13
 * **Clean Code:** Extracted logic into independent, reusable methods with inputs and outputs.
 * **Version Control:** Resolved Git merge states and used `commit --amend` to modify commits.
 
+## Day 03: Object-Oriented Programming (OOP) Fundamentals
+- **Concepts Covered:** Classes, Objects, Encapsulation, and Constructors.
+- **Key Implementations:**
+  - Built a `Student` class with `private` fields and GPA validation.
+  - Developed a `BankAccount` class with secure `deposit` and `withdraw` methods to protect the state.
+  - Overrode the `toString()` method for readable object representation.
+  - Created an `ArrayHelper` utility class to solve array algorithms (Find Max, Calculate Average, Count Evens).
+- **Tech Stack:** Java.
+
 End date: June 30
