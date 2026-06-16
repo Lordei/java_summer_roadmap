@@ -22,4 +22,15 @@ Start date: June 13
   - Created an `ArrayHelper` utility class to solve array algorithms (Find Max, Calculate Average, Count Evens).
 - **Tech Stack:** Java.
 
+## Day 04: Arrays, Strings, and Debugging
+- **Concepts Covered:** Array iteration, String manipulation, and Debugging basics.
+- **Key Implementations:**
+  - Implemented `findMin` to practice array traversal.
+  - Built String manipulation methods: `reverseString`, `isPalindrome`, and `countVowels`.
+  - Used key String methods such as `charAt()` and `toLowerCase()`.
+  - Understood the critical difference between `==` and `.equals()` in Java.
+- **Debugging Notes:**
+  - **Breakpoints:** Used to pause code execution at a specific line.
+  - **Step Over:** Used to execute code line-by-line to monitor variable changes and identify logical bugs.
+
 End date: June 30
