@@ -20,7 +20,6 @@ Start date: June 13
   - Developed a `BankAccount` class with secure `deposit` and `withdraw` methods to protect the state.
   - Overrode the `toString()` method for readable object representation.
   - Created an `ArrayHelper` utility class to solve array algorithms (Find Max, Calculate Average, Count Evens).
-- **Tech Stack:** Java.
 
 ## Day 04: Arrays, Strings, and Debugging
 - **Concepts Covered:** Array iteration, String manipulation, and Debugging basics.
@@ -32,5 +31,14 @@ Start date: June 13
 - **Debugging Notes:**
   - **Breakpoints:** Used to pause code execution at a specific line.
   - **Step Over:** Used to execute code line-by-line to monitor variable changes and identify logical bugs.
+
+  ## Day 05: Unit Converter CLI & Problem Solving
+- **Concepts Covered:** Separation of Concerns (Classes), CLI Menus, Basic Input/Output, and Git Branching.
+- **Key Implementations:**
+  - Built a `Unit Converter` application using separate classes (`Main`, `Menu`, `Convertor`) to organize logic.
+  - Implemented mathematical formulas for Temperature, Weight, and Length conversions.
+  - Solved algorithmic challenges: Time conversion (using modulo `%`), Currency exchange, and BMI calculation.
+- **Git/GitHub Notes:**
+  - Used `git checkout -b` to create an isolated environment (`feature/unit-converter`) before making changes.
 
 End date: June 30
