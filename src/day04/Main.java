@@ -4,12 +4,13 @@ public class Main {
     public static void main(String[] args) {
         int[] myNumbers = {4, 2, 9, 1, 5};
         String myText = "radar";
-
+        String myname = "ibrahim";
 
         System.out.println("Min: " + findMin(myNumbers));
         System.out.println("the reversed : " + reverseString(myText));
         System.out.println("isPalindrome? : " + isPalindrome(myText));
         System.out.println("this word : " + myText + " has this number of vowels :" + countVowels(myText));
+        System.out.println("the clean reverse of my name is :" + cleanAndReverse(myname));
     }
 
     public static int findMin(int[] numbers) {
@@ -41,5 +42,15 @@ public class Main {
                 counterVowels++;
         }
         return counterVowels;
+    }
+
+    //I re-made the reverse method just to practice more
+    public static String cleanAndReverse(String text) {
+        String cleantext = text.substring(1, text.length() - 1);
+        String reversed = "";
+        for (int i = cleantext.length() - 1; i >= 0; i--) {
+        reversed += cleantext.charAt(i);
+        }
+        return reversed;
     }
 }
