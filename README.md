@@ -1,26 +1,28 @@
-# Java Summer Roadmap
-Goal: Prepare for Software Engineering
-Start date: June 13
+# Java Backend Engineering Roadmap 🚀
+**Duration:** June 13, 2026 - June 30, 2026  
+**Goal:** Prepare for Software Engineering by mastering Core Java, Object-Oriented Programming (OOP), Unit Testing, and Git workflows.
+
+---
+
 ## Day 01: Setup & Basics
-* **Environment:** Setup Java JDK & IntelliJ IDEA.
-* **Version Control:** Git basics (init, add, commit, push) & GitHub.
-* **Core Java:** Interactive CLI Calculator using `Scanner`, `switch`, and `for` loops.
-* **Clean Code:** Refactored `main` into modular, reusable methods.**
+- **Environment:** Setup Java JDK & IntelliJ IDEA.
+- **Version Control:** Git basics (`init`, `add`, `commit`, `push`) & GitHub.
+- **Core Java:** Interactive CLI Calculator using `Scanner`, `switch`, and `for` loops.
+- **Clean Code:** Refactored main into modular, reusable methods.
 
 ## Day 02: Methods, Conditions & Loops
-* **Control Flow:** Built a continuous CLI menu using `do-while` and `switch`.
-* **Algorithms:** Used `for` and `while` loops to solve logic problems (Factorial, Prime checker, Reverse number).
-* **Clean Code:** Extracted logic into independent, reusable methods with inputs and outputs.
-* **Version Control:** Resolved Git merge states and used `commit --amend` to modify commits.
+- **Control Flow:** Built a continuous CLI menu using `do-while` and `switch`.
+- **Algorithms:** Used `for` and `while` loops to solve logic problems (Factorial, Prime checker, Reverse number).
+- **Clean Code:** Extracted logic into independent, reusable methods with inputs and outputs.
+- **Version Control:** Resolved Git merge states and used `commit --amend` to modify commits.
 
 ## Day 03: Object-Oriented Programming (OOP) Fundamentals
 - **Concepts Covered:** Classes, Objects, Encapsulation, and Constructors.
 - **Key Implementations:**
-  - Built a `Student` class with `private` fields and GPA validation.
-  - Developed a `BankAccount` class with secure `deposit` and `withdraw` methods to protect the state.
+  - Built a `Student` class with private fields and GPA validation.
+  - Developed a `BankAccount` class with secure deposit and withdraw methods to protect the state.
   - Overrode the `toString()` method for readable object representation.
   - Created an `ArrayHelper` utility class to solve array algorithms (Find Max, Calculate Average, Count Evens).
-- **Tech Stack:** Java.
 
 ## Day 04: Arrays, Strings, and Debugging
 - **Concepts Covered:** Array iteration, String manipulation, and Debugging basics.
@@ -33,4 +35,20 @@ Start date: June 13
   - **Breakpoints:** Used to pause code execution at a specific line.
   - **Step Over:** Used to execute code line-by-line to monitor variable changes and identify logical bugs.
 
-End date: June 30
+## Day 05: Unit Converter CLI & Problem Solving
+- **Concepts Covered:** Separation of Concerns (Classes), CLI Menus, Basic Input/Output, and Git Branching.
+- **Key Implementations:**
+  - Built a Unit Converter application using separate classes (`Main`, `Menu`, `Convertor`) to organize logic.
+  - Implemented mathematical formulas for Temperature, Weight, and Length conversions.
+  - Solved algorithmic challenges: Time conversion (using modulo `%`), Currency exchange, and BMI calculation.
+- **Git/GitHub Notes:**
+  - Used `git checkout -b` to create an isolated environment (`feature/unit-converter`) before making changes.
+
+## Day 06: Unit Testing & GitHub Workflows
+- **Concepts Covered:** Unit Testing, JUnit 4, Assertions (`assertEquals`), and Pull Requests.
+- **Key Implementations:**
+  - Wrote automated tests for the Unit Converter logic in `ConvertorTest.java`.
+  - Tested edge cases and verified math formulas without manual CLI input.
+- **Git/GitHub Notes:**
+  - Created a Pull Request (PR) on GitHub.
+  - Successfully merged `feature/unit-converter` into the `main` branch.
