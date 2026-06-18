@@ -44,11 +44,12 @@
 - **Git/GitHub Notes:**
   - Used `git checkout -b` to create an isolated environment (`feature/unit-converter`) before making changes.
 
-## Day 06: Unit Testing & GitHub Workflows
+## Day 06: Unit Testing, PRs & Problem Solving
 - **Concepts Covered:** Unit Testing, JUnit 4, Assertions (`assertEquals`), and Pull Requests.
 - **Key Implementations:**
   - Wrote automated tests for the Unit Converter logic in `ConvertorTest.java`.
   - Tested edge cases and verified math formulas without manual CLI input.
+  - Solved algorithmic challenges: Leap Year checker, Circle Area calculation, and Sum of Digits using `while` loops.
 - **Git/GitHub Notes:**
-  - Created a Pull Request (PR) on GitHub.
-  - Successfully merged `feature/unit-converter` into the `main` branch.
+  - Created Pull Requests (PR) on GitHub and resolved merge conflicts.
+  - Successfully merged feature branches into the `master` branch.
