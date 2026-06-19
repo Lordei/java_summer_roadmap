@@ -53,3 +53,14 @@
 - **Git/GitHub Notes:**
   - Created Pull Requests (PR) on GitHub and resolved merge conflicts.
   - Successfully merged feature branches into the `master` branch.
+
+  ## Day 7: Java Collections Basics & Algorithmic Problems
+- **Concepts Covered:** Java Collections Framework, ArrayList vs. Standard Array, HashSet (preventing duplicates), HashMap (Key-Value pairing), and Big-O Notation basics ($O(1)$ vs $O(N)$).
+- **Key Implementations:**
+  - Implemented dynamic lists using `ArrayList` and unique data tracking using `HashSet`.
+  - Built a frequency counter using `HashMap` to count word and character occurrences.
+- **Problem Solving (`CollectionsProblems.java`):**
+  - Removed duplicates from a list using `HashSet`.
+  - Counted character frequency in a string.
+  - Checked if two strings are Anagrams using `Arrays.sort()`.
+  - Found the first repeating number in an array optimized with `HashSet`.
