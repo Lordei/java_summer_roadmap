@@ -2,10 +2,11 @@ package day08;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
+    private static final String FILE_NAME = "notes.txt";
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Note> notes = new ArrayList<>();
-        String savedText = FileManager.readText("notes.txt");
+        String savedText = FileManager.readText("FILE_NAME");
         if (!savedText.isEmpty()) {
             String[] lines = savedText.split("\n");
             for (String line : lines) {
@@ -33,7 +34,7 @@ public class Main {
                     for (Note note : notes) {
                         allNotesText += FileManager.noteToLine(note) + "\n";
                     }
-                    FileManager.saveText("notes.txt", allNotesText);
+                    FileManager.saveText("FILE_NAME", allNotesText);
                     System.out.println("Note added successfully!");
                     break;
                 case 2:

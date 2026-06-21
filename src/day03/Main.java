@@ -1,7 +1,5 @@
 package day03;
 
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, I'm Ibrahim!");
@@ -23,7 +21,7 @@ public class Main {
 
         //----------
 
-        Bankaccount user1 = new Bankaccount("Ibrahim", 1000);
+        BankAccount user1 = new BankAccount("Ibrahim", 1000);
         System.out.println(user1);
         user1.deposit(500);
         System.out.println(user1);

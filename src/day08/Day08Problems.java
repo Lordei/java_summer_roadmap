@@ -1,12 +1,10 @@
 package day08;
-
-import java.util.ArrayList;
-
-public class day08Problems {
+public class Day08Problems {
+    private static final String FILE_NAME = "notes.txt";
     public static void main(String[] args) {
         String text = "Hello World I'm the best programmer";
         System.out.println("Count words in \"" + text + "\" is " + countWords(text));
-        System.out.println("Count lines in notes.txt is " + countLines("notes.txt"));
+        System.out.println("Count lines in notes.txt is " + countLines("FILE_NAME"));
         System.out.println("Does the word \"the\" exist in \"" + text + "\"? Answer: " + containsWord(text, "the"));
     }
 //todo: count words in a text

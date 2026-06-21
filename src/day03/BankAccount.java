@@ -1,10 +1,10 @@
 package day03;
 
-public class Bankaccount {
+public class BankAccount {
     private String ownerName;
     private double balance;
 
-    public Bankaccount(String ownerName, double balance) {
+    public BankAccount(String ownerName, double balance) {
         this.ownerName = ownerName;
         this.balance = balance;
     }
