@@ -18,7 +18,7 @@ public class Main {
         printSeparator();
         System.out.println("thank you for using my programs!");
         System.out.println("Goodbye! ^_^");
-            scanner.close();
+
     } //method main
 
     public static boolean isEven(double number1) {

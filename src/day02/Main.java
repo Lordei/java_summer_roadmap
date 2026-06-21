@@ -8,7 +8,7 @@ public class Main {
         System.out.println("I'm a new student and i will do the day02 task! ^_^");
         menu();
 
-        scanner.close();
+
     } // نهاية main
 
     // ---------------- الدوال (Methods) ----------------
