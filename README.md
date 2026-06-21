@@ -64,3 +64,17 @@
   - Counted character frequency in a string.
   - Checked if two strings are Anagrams using `Arrays.sort()`.
   - Found the first repeating number in an array optimized with `HashSet`.
+
+## Day 08: File Storage & Notes Manager
+- **Concepts Covered:** Volatile vs. Persistent storage, File I/O using `java.nio.file.Files`, Exception Handling (`try-catch`), and Text parsing.
+- **Key Implementations:**
+  - Built a CLI Notes Manager application with persistent text file storage (`notes.txt`).
+  - Developed a `FileManager` utility class to handle `saveText` and `readText` operations.
+  - Implemented object serialization (saving `Note` objects to text using a `|` delimiter) and deserialization (parsing text back to objects using `split("\\|")`).
+  - Resolved the common `Scanner` newline bug by consuming the leftover input with `scanner.nextLine()`.
+- **Problem Solving:**
+  - Counted words in a string using `split(" ").length`.
+  - Counted lines in a text file by reading its content and splitting by `\n`.
+  - Checked for word existence within a string using `.contains()`.
+- **Database (Oracle SQL):**
+  - Practiced DDL and DML by creating a `Notes` table, inserting records, and querying the data.
